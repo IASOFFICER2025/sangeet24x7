@@ -28,7 +28,7 @@ async def chat_gpt(bot, message):
                     end_time = time.time()
                     telegram_ping = str(round((end_time - start_time) * 1000, 3)) + " ms"
                     await message.reply_text(
-                         f"❖ {x}  \n\n❖ ᴀɴsᴡᴇʀɪɴɢ ʙʏ ➥  ๛ᴀ ᴠ ɪ s ʜ ᴀ ࿐",
+                         f"❖ {x}  \n\n❖ ᴀɴsᴡᴇʀɪɴɢ ʙʏ ➥  ๛ᴀ ɴ ᴋ ɪ ᴛ ᴀ ࿐",
                         parse_mode=ParseMode.MARKDOWN
                     )
                 else:
